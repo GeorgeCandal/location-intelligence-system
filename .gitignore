@@ -205,3 +205,28 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Location Intelligence System - Data files
+data/raw/*
+data/processed/*
+*.csv
+*.plt
+*.zip
+*.geojson
+
+# Keep directory structure with placeholder files
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/raw/README.md
+!data/processed/README.md
+
+# Model and cache files
+*.pkl
+*.h5
+*.model
+*.joblib
+dashboard/cache/
+
+# Large visualization outputs
+*.html
+output/
